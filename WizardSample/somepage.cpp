@@ -14,6 +14,7 @@ SomePage::~SomePage()
 void SomePage::initialize( int someData )
 {
 	ui.someDataSpinBox->setValue(someData);
+	
 }
 
 int SomePage::someData() const

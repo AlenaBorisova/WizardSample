@@ -13,8 +13,8 @@
   <property name="windowTitle">
    <string>SomePage</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout">
-   <item>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
       <widget class="QLabel" name="label">
@@ -28,7 +28,7 @@
      </item>
     </layout>
    </item>
-   <item>
+   <item row="1" column="0">
     <spacer name="verticalSpacer">
      <property name="orientation">
       <enum>Qt::Vertical</enum>
@@ -42,8 +42,6 @@
     </spacer>
    </item>
   </layout>
-  <zorder>horizontalLayoutWidget</zorder>
-  <zorder>label</zorder>
   <zorder>verticalSpacer</zorder>
  </widget>
  <layoutdefault spacing="6" margin="11"/>

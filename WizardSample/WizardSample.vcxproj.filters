@@ -45,6 +45,9 @@
     <Filter Include="Wizard Sample\Pages\SomePage">
       <UniqueIdentifier>{a3ee2399-f99c-49a5-945f-5b5b84655868}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Wizard Sample\Pages\Page1">
+      <UniqueIdentifier>{64666450-45ef-4323-a12f-e44f728cc851}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -71,6 +74,15 @@
     <ClCompile Include="somepage.cpp">
       <Filter>Wizard Sample\Pages\SomePage</Filter>
     </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_page1.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_page1.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="page1.cpp">
+      <Filter>Wizard Sample\Pages\Page1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="wizardsample.qrc">
@@ -88,12 +100,21 @@
     <CustomBuild Include="somepage.ui">
       <Filter>Wizard Sample\Pages\SomePage</Filter>
     </CustomBuild>
+    <CustomBuild Include="page1.h">
+      <Filter>Wizard Sample\Pages\Page1</Filter>
+    </CustomBuild>
+    <CustomBuild Include="page1.ui">
+      <Filter>Wizard Sample\Pages\Page1</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_wizardsample.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_somepage.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_page1.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
   </ItemGroup>
