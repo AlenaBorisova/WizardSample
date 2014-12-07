@@ -45,7 +45,11 @@
     <Filter Include="Wizard Sample\Pages\SomePage">
       <UniqueIdentifier>{a3ee2399-f99c-49a5-945f-5b5b84655868}</UniqueIdentifier>
     </Filter>
+<<<<<<< HEAD
     <Filter Include="Wizard Sample\Pages\Page1">
+=======
+    <Filter Include="Wizard Sample\Pages\AssumptionPage">
+>>>>>>> caedc8205db50f066cf3f160f5df984d44f769c3
       <UniqueIdentifier>{64666450-45ef-4323-a12f-e44f728cc851}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -74,6 +78,7 @@
     <ClCompile Include="somepage.cpp">
       <Filter>Wizard Sample\Pages\SomePage</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="GeneratedFiles\Debug\moc_page1.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
@@ -82,6 +87,16 @@
     </ClCompile>
     <ClCompile Include="page1.cpp">
       <Filter>Wizard Sample\Pages\Page1</Filter>
+=======
+    <ClCompile Include="GeneratedFiles\Debug\moc_assumptionpage.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_assumptionpage.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="assumptionpage.cpp">
+      <Filter>Wizard Sample\Pages\AssumptionPage</Filter>
+>>>>>>> caedc8205db50f066cf3f160f5df984d44f769c3
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -100,11 +115,19 @@
     <CustomBuild Include="somepage.ui">
       <Filter>Wizard Sample\Pages\SomePage</Filter>
     </CustomBuild>
+<<<<<<< HEAD
     <CustomBuild Include="page1.h">
       <Filter>Wizard Sample\Pages\Page1</Filter>
     </CustomBuild>
     <CustomBuild Include="page1.ui">
       <Filter>Wizard Sample\Pages\Page1</Filter>
+=======
+    <CustomBuild Include="assumptionpage.ui">
+      <Filter>Wizard Sample\Pages\AssumptionPage</Filter>
+    </CustomBuild>
+    <CustomBuild Include="assumptionpage.h">
+      <Filter>Wizard Sample\Pages\AssumptionPage</Filter>
+>>>>>>> caedc8205db50f066cf3f160f5df984d44f769c3
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -114,7 +137,11 @@
     <ClInclude Include="GeneratedFiles\ui_somepage.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="GeneratedFiles\ui_page1.h">
+=======
+    <ClInclude Include="GeneratedFiles\ui_assumptionpage.h">
+>>>>>>> caedc8205db50f066cf3f160f5df984d44f769c3
       <Filter>Generated Files</Filter>
     </ClInclude>
   </ItemGroup>

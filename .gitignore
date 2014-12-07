@@ -10,6 +10,37 @@
 *.dll
 *.dylib
 
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.pdb
+*.dll.config
+
+#Visual Studio files
+*.obj
+*.exp
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*.opensdf
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.lib
+*.sbr
+*.sdf
+
 # Qt-es
 
 /.qmake.cache
@@ -22,6 +53,13 @@ qrc_*.cpp
 ui_*.h
 Makefile*
 *-build-*
+
+ipch/
+obj/
+GeneratedFiles/
+
+[Dd]ebug*/
+[Rr]elease*/
 
 # QtCreator
 
